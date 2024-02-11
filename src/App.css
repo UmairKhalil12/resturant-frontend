@@ -1,5 +1,16 @@
-.App{
+body {
   margin: 0;
   padding: 0;
-  
+  width: 100%;
+  background-color: var(--color-bg);
+  color: var(--color-text1);
+  font-family: var(--font-family);
+}
+
+.section_padding {
+  padding: 2rem 2rem;
+}
+
+.section_margin {
+  margin: 2rem 2rem;
 }

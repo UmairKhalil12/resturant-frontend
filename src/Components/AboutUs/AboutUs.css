@@ -1,0 +1,54 @@
+.about-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 4rem;
+}
+
+.about img{
+    transform: scaleX(-1);
+}
+
+/* .knife{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.knife img {
+    height: 400px;
+}
+
+.history {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 4rem;
+
+}
+
+.G-div{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+    display: inline;
+}
+
+.G-div img{
+    height: 300px;
+    width: 300px;
+} 

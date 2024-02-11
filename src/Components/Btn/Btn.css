@@ -1,0 +1,13 @@
+.btn{
+    padding: 0.5rem;
+    border: none;
+    background-color: var(--color-subtext);
+    color : var(--color-text);
+    height: 35px;
+    width:180px;
+    border-radius: 5px;
+    font-size: medium;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+

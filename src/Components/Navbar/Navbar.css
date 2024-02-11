@@ -1,9 +1,11 @@
 .navbar-main {
     display: flex;
     justify-content: space-between;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-right: 1rem;
-    border-bottom: 1px solid black;
+    background-color: var(--color-bg);
+    color: var(--color-text1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navbar-main-heading{
@@ -22,7 +24,7 @@
 .navbar-main img{
     float: left;
     padding-left: 0.2rem;
-    width: 50px;
+    width: 120px;
     height: 50px;
 }
 

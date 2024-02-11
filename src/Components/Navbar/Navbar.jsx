@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
-import logo from '../../assets/resturantlogo.png'
+import logo from '../../assets/gericht.png'
 
 function Navbar() {
     return (
@@ -10,7 +10,7 @@ function Navbar() {
                 <div className='navbar-logo'>
                     <img src={logo} alt='logo' />
                 </div>
-                <h1>Food Freak</h1>
+                {/* <h1>Food Freak</h1> */}
             </div>
             <div className='navbar-main-link'>
                 <p>Home</p>
