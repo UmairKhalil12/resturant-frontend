@@ -3,15 +3,15 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 90vh;
+  
 }
 
 .header-img {
   display: flex;
   justify-content: center;
   margin-left: 2rem;
-  padding-right: 5rem;
+  margin-right: 12rem;
   padding-top: 1rem;
 }
 
@@ -26,7 +26,9 @@
   justify-content: center;
   margin-left: 2rem;
   text-align: left;
+  flex-wrap: wrap;
 }
+
 
 .header-content img {
   width: 30px;

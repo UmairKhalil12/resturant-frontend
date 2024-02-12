@@ -4,9 +4,6 @@ import Heading from '../Heading/Heading'
 import knife from '../../assets/knife.png'
 import spoon from '../../assets/spoon.png'
 import Btn from '../Btn/Btn'
-import G from '../../assets/G.png'
-
-
 
 export default function AboutUs() {
     return (
@@ -30,9 +27,9 @@ export default function AboutUs() {
                 <img src={knife} alt='knife'  />
             </div>
 
-            <div  className='G-div' >
+            {/* <div  className='G-div' >
             <img src={G} alt='knife'  />
-            </div>
+            </div> */}
 
             <div className='history'>
                 <div>

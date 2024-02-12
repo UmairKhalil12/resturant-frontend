@@ -1,0 +1,30 @@
+.menu-container{
+    text-align: center;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-child{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-child img{
+    height: 500px;
+}
+
+.inside-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .inside-menu-1 p:nth-child(even) {
+    font-size: 12px;
+    text-align: left;
+    display: inline;
+} */

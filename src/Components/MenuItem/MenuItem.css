@@ -1,0 +1,43 @@
+.main-menuitem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.head-menuitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-p-tag{
+    text-align: left;
+    color: gray;
+}
+
+.menu-p-title{
+    text-align: left;
+    color: var(--color-subtext);
+}
+
+/* .menu-p {
+    text-align: right;
+} */
+
+.tag-menuitem{
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.title-menuitem{
+    flex: 1;
+}
+
+.menuitem-line{
+    width: 90px;
+    height: 1px;
+    background-color: var(--color-subtext);
+    margin: 0 1rem;
+
+}

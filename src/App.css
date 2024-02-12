@@ -7,6 +7,11 @@ body {
   font-family: var(--font-family);
 }
 
+.App{
+  background-size:cover ;
+  background-repeat:repeat ;
+}
+
 .section_padding {
   padding: 2rem 2rem;
 }
