@@ -1,6 +1,6 @@
 .menu-container{
     text-align: center;
-    height: 100vh;
+    height: auto;
 }
 
 .menu{
@@ -15,7 +15,7 @@
 }
 
 .menu-child img{
-    height: 500px;
+    height: 550px; 
 }
 
 .inside-menu{

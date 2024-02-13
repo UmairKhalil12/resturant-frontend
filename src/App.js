@@ -7,6 +7,8 @@ import BookTable from './Components/BookTable/BookTable';
 
 import overlaybg from './assets/overlaybg.png'
 import Menu from './Components/Menu/Menu';
+import ChefWord from './Components/ChefWord/ChefWord';
+import IntroVideo from './Components/IntroVideo/IntroVideo';
 
 function App() {
   return (
@@ -14,12 +16,12 @@ function App() {
       <div className="App" style={{ backgroundImage: `url(${overlaybg})` }}>
         <Navbar />
         <Header />
-        <AboutUs /> 
-        <BookTable /> 
+        <AboutUs />
+        <BookTable />
+        <Menu />
+        <ChefWord />
+        <IntroVideo />
       </div>
-    <div>
-      <Menu />
-    </div>
 
     </>
   );

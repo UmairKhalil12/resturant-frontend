@@ -3,7 +3,6 @@ import '../../assets/spoon.png'
 import Heading from '../Heading/Heading'
 import spoon from '../../assets/spoon.png'
 import menu from '../../assets/menu.png'
-import Para from '../Para/Para'
 import wines from './data'
 import MenuItem from '../MenuItem/MenuItem'
 
@@ -15,22 +14,18 @@ function Menu() {
             <img src={spoon} alt='spoon' />
             <Heading text='Todays Special ' />
             <div className='menu'>
-                
+
                 <div className='menu-child'>
                     <div>
-                        <h1>Wine and Bear</h1>
+                        <h2>Wine and Bear</h2>
                         <div className='inside-menu'>
                             <div className='inside-menu-1'>
                                 {wines.wines.map((wines, key) => {
                                     return <MenuItem title={wines.title} price={wines.price} tag={wines.tags} key={key} />
                                 })}
                             </div>
-                            <div>
-
-                            </div>
                         </div>
                     </div>
-
                 </div>
 
                 <div className='menu-child' >
@@ -39,7 +34,7 @@ function Menu() {
 
                 <div className='menu-child'>
                     <div>
-                        <h1>Cocktails</h1>
+                        <h2>Cocktails</h2>
                         <div className='inside-menu'>
                             <div className='inside-menu-1'>
                                 {wines.cocktails.map((wines, key) => {
@@ -48,9 +43,10 @@ function Menu() {
                             </div>
                         </div>
                     </div>
-
                 </div>
+
             </div>
+
         </div>
 
     )

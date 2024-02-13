@@ -10,5 +10,6 @@
   --color-subtext: #DDCA86;
   --color-text:#000000;
   --color-text1 :#ffff ;
+  --color-menu : gray ; 
   /* --gradient-color : linear-gradient(180deg, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%); */
 }

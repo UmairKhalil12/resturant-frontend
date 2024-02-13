@@ -13,7 +13,7 @@
 
 .menu-p-tag{
     text-align: left;
-    color: gray;
+    color: var(--color-menu); 
 }
 
 .menu-p-title{
@@ -27,7 +27,7 @@
 
 .tag-menuitem{
     width: 100%;
-    margin-top: 0.2rem;
+    margin-top: -2rem;
 }
 
 .title-menuitem{
@@ -39,5 +39,10 @@
     height: 1px;
     background-color: var(--color-subtext);
     margin: 0 1rem;
+}
 
+.price-menuitem{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
