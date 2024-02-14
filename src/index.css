@@ -1,15 +1,12 @@
 :root {
   --font-family: 'Pacifico', cursive;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  
   --color-bg:  #000300;
   --color-bg-2 : #ffff;
   --color-blog: #042c54;
   --color-subtext: #DDCA86;
   --color-text:#000000;
   --color-text1 :#ffff ;
-  --color-menu : gray ; 
+  --color-text3 : gray ; 
   /* --gradient-color : linear-gradient(180deg, rgba(102,102,102,1) 0%, rgba(0,0,0,1) 100%); */
 }

@@ -27,7 +27,7 @@ function ChefWord() {
                     </p>
 
                     < Para text='Kewin Lowo' />
-                    <p style={{ color: 'gray' }}>chef & co-founder</p>
+                    <p style={{ color: 'var(--color-text3)' }}>chef & co-founder</p>
                     <img src={signature} alt='sign' className='signature' />
                 </div>
             </div>

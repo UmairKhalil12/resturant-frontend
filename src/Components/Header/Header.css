@@ -9,6 +9,7 @@
 
 .header-img {
   display: flex;
+  flex: 1;
   justify-content: center;
   margin-left: 2rem;
   margin-right: 12rem;
@@ -16,12 +17,13 @@
 }
 
 .header-img img {
-  height: 500px;
-  width: 500px;
+  height: 80%;
+  width: 85%;
 }
 
 .header-content {
-  width: 100%;
+  /* width: 100%; */
+  flex: 1;
   display: flex;
   justify-content: center;
   margin-left: 2rem;

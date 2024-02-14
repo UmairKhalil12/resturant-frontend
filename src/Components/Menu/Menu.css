@@ -11,16 +11,19 @@
 .menu-child{
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
+    flex: 1;
 }
 
 .menu-child img{
-    height: 550px; 
+    height: 92%;
+    width: 90%; 
 }
 
 .inside-menu{
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 /* .inside-menu-1 p:nth-child(even) {

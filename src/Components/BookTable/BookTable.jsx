@@ -2,7 +2,6 @@ import Heading from "../Heading/Heading"
 import Btn from "../Btn/Btn"
 import spoon from '../../assets/spoon.png'
 import "./BookTable.css"
-import bg from '../../assets/bg.png'
 
 function BookTable() {
     return (

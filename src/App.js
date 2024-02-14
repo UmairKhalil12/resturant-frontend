@@ -9,6 +9,8 @@ import overlaybg from './assets/overlaybg.png'
 import Menu from './Components/Menu/Menu';
 import ChefWord from './Components/ChefWord/ChefWord';
 import IntroVideo from './Components/IntroVideo/IntroVideo';
+import Laurels from './Components/Laurels/Laurels';
+import PhotoGallery from './Components/PhotoGallery/PhotoGallery';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Menu />
         <ChefWord />
         <IntroVideo />
+        <Laurels />
+        {/* <PhotoGallery />  */}
       </div>
 
     </>

@@ -1,0 +1,23 @@
+.main-photogallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.main-photogallery-content{
+    padding: 2rem;
+    padding-left: 1rem;
+    flex: 1;
+}
+
+.main-photogallery-img{
+    flex: 1;
+    
+}
+
+.main-photogallery-img img{
+    width: 50%;
+
+}
