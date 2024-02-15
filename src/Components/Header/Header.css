@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: row;
   height: 90vh;
-  
+
 }
 
 .header-img {
@@ -36,6 +36,23 @@
   width: 30px;
 }
 
-/* .header-content p{
-  color: var(--color-subtext);
-} */
+@media screen and (max-width : 850px) {
+  .header-main {
+    flex-direction: column;
+  }
+
+  .header-img {
+    align-items: flex-start;
+  }
+
+  .header-content{
+    align-self: flex-start;
+  }
+
+  .header-img img {
+    height: 100%;
+    width: 100%;
+  }
+
+
+}

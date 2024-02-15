@@ -1,0 +1,28 @@
+.main-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.newsletter-cotainer{
+    text-align: center;
+    border: 1px solid var(--color-subtext);
+    width: 80%;
+    box-shadow: inset rgba(0, 0, 0, 0.4);
+}
+
+.newsletter-input-btn{
+    display: flex;
+    justify-content: space-between;
+    margin:  2rem 5rem;
+}
+
+.newsletter-input-btn input{
+    flex: 1;
+    border: 1px solid var(--color-text1);
+    background-color: transparent;
+    margin-right: 1rem;
+    color: white;
+}
+

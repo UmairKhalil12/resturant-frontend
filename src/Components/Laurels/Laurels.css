@@ -13,7 +13,6 @@
 .laurels-awards-1 {
     display: flex;
     flex: 1;
-    /* width: 100%; */
     justify-content: space-between;
     padding-bottom: 2rem;
 }
@@ -26,8 +25,6 @@
 .laurels-awards-2 {
     display: flex;
     flex: 1;
-    /* padding-left: 2rem; */
-    /* width: 100%; */
     justify-content: space-between;
 }
 
@@ -41,12 +38,6 @@
     display: flex;
 }
 
-
-/* .award-img-div{
-    padding-right: 1rem;
-    padding-left: 1rem;
-}  */
-
 .award-img-div img {
     width: 85%;
     height: 85%;
@@ -54,15 +45,34 @@
 }
 
 .laurels-image {
-    /* margin-right: 2rem; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* flex: 1; */
 }
 
 .laurels-image img {
     width: 65%;
     height: 60%;
+}
+
+@media screen and (max-width : 850px) {
+    .laurels-main{
+        flex-direction: column;
+    }
+
+    .laurels-image img {
+        width: 70%;
+        height: 65%;
+    }
+    .laurels-awards-1{
+        padding-bottom: 0rem;
+    }
+
+    .laurels-image {
+        margin-top: 1rem;
+        align-items: flex-start;
+        flex: 1;
+    }
+   
 }

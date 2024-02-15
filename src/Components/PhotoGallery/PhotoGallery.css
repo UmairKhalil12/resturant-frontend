@@ -1,4 +1,4 @@
-.main-photogallery{
+.main-photogallery {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,18 +6,104 @@
     margin-top: 2%;
 }
 
-.main-photogallery-content{
+.main-photogallery-content {
     padding: 2rem;
     padding-left: 1rem;
     flex: 1;
 }
 
-.main-photogallery-img{
+.gallery-images {
+    display: flex;
+    flex-direction: row;
     flex: 1;
-    
+    max-width: 50%;
+    position: relative;
+    align-items: center;
 }
 
-.main-photogallery-img img{
-    width: 50%;
+.gallery-images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: max-content;
+    min-width: 60%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
 
+.gallery-image-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 300px;
+    height: 450px;
+    margin-right: 2rem;
+}
+
+.gallery-image-card img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.gallery-image-card img:hover {
+    opacity: 0.35;
+    cursor: pointer;
+}
+
+.arrow-icons {
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.instagram-icon {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0.05;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.gallery-image-card img:hover .instagram-icon {
+    opacity: 1;
+}
+
+@media screen and (max-width : 850px) {
+
+    .main-photogallery {
+        margin-top: 0;
+        padding: 0 2rem;
+        flex-direction: column;
+    }
+
+    .main-photogallery-content{
+        padding: 0rem ;
+    }
+    
+    .gallery-images {
+        max-width: 90%;
+    }
+
+    .gallery-images-container {
+        min-width: 90%;
+        align-items: flex-start;
+    }
+
+    .gallery-image-card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery-image-card img {
+        width: 100%;
+        height: 100%;
+    }
 }

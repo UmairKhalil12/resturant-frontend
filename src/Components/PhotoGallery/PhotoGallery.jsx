@@ -14,18 +14,19 @@ export default function PhotoGallery() {
     const scrollRef = useRef(null)
 
     const scroll = (direction) => {
-        const {current } = scrollRef;
-        if(direction === 'left'){
-            current.scrollleft -= 300;
+        const current = scrollRef.current;
+
+        if (direction === 'left') {
+            current.scrollLeft -= 300;
         } else {
-            current.scrollleft += 300; 
+            current.scrollLeft += 300;
         }
-        
+
     }
 
-    const images =[gallery1 , gallery2 , gallery3 , gallery4]
+    const images = [gallery1, gallery2, gallery3, gallery4]
     return (
-        <div className='main-photogallery section_padding'>
+        <div className='main-photogallery '>
             <div className='main-photogallery-content'>
                 <h4>Instagram</h4>
                 <img src={spoon} alt='spoon' />
@@ -38,16 +39,20 @@ export default function PhotoGallery() {
                 <Btn text='View More' />
             </div>
 
-            <div className='main-photogallery-img'>
-                <BsArrowLeftShort  onClick={scroll('left')}/>
-                {/* <img src={gallery1} alt='gallery' /> */}
-                {images.map((image , index)=>{
-                    
-                })}
-                <BsArrowRightShort onClick={scroll('right')} />
+            <div className='gallery-images' >
+            <BsArrowLeftShort size={30} onClick={() => scroll('left')} className='arrow-icons' />
+                <div className='gallery-images-container' ref={scrollRef}>
+                    {images.map((image, index) => {
+                        return (
+                            <div className='gallery-image-card' key={index}>
+                                <img src={image} alt='gallery' />
+                                <BsInstagram className='instagram-icon' />
+                            </div>
+                        )
+                    })}
+                </div>
+                <BsArrowRightShort size={30} onClick={() => scroll('right')} className='arrow-icons' />
             </div>
-
-
         </div>
     )
 }
