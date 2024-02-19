@@ -50,6 +50,17 @@
     }
 
     .input select{
-        width: 170px;
+        width:70%;
     }
+}
+
+@media screen and (max-width : 550px) {
+    .booktable-input{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input select{
+        width: 120px;
+    }
+    
 }

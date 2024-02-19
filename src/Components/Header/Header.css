@@ -46,7 +46,7 @@
   }
 
   .header-content{
-    align-self: flex-start;
+    align-items: flex-start;
   }
 
   .header-img img {
@@ -54,5 +54,27 @@
     width: 100%;
   }
 
+}
 
+@media screen and (max-width : 550px){
+
+  .header-main{
+    height: auto;
+  }
+
+  .header-content{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .header-img img {
+    height: 360px;
+    width: 340px;
+  }
+
+  .header-img{
+    margin: 0;
+    padding: 0;
+  }
 }

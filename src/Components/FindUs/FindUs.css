@@ -36,3 +36,23 @@
         margin-left: 2rem;
     }
 }
+
+@media screen and (max-width : 550px) {
+    .main-findus{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .findus-img{
+       margin: 0;
+       padding: 0;
+       justify-content:center ;
+       margin-top: 1rem;
+    }
+
+    .findus-img img{
+        width:  90%;
+        height: 90%;
+    }
+}
+

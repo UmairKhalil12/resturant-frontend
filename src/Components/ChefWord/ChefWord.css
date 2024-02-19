@@ -49,11 +49,11 @@
     .img-chef{
         align-items: flex-start;
         margin-top: 1rem;
-
     }
 
     .content-chefword{
         align-items: flex-start;
+        text-align: center;
     }
 
     .img-chef img{
@@ -63,6 +63,32 @@
     .signature{
         height: 8%;
         width: 20%;
+    }
+
+}
+
+@media screen and (max-width : 550px) {
+    .main-chefword{
+        height: auto;
+    }
+    .img-chef{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 1rem;
+    }
+
+    .img-chef img{
+        width: 100%;
+        height: 90%;
+    }
+
+    .content-chefword{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 1rem;  
     }
 
 }

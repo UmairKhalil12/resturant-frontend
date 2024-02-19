@@ -43,5 +43,26 @@
         flex-direction: column;
     } */
 
+}
+
+@media screen and (max-width : 550px) {
+    .about-main{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .knife img {
+        height: 400px;
+        width: 75px;
+    }
+
+    .about{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .history{
+        text-align: center;
+    }
 
 }
