@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin-right: 5rem;
+    padding-right: 5rem;
 }
 
 .findus-img img{
@@ -33,7 +33,7 @@
     }
     .findus-img{
         margin-right:0 ;
-        margin-left: 2rem;
+        padding-left: 2rem;
     }
 }
 
@@ -47,7 +47,7 @@
        margin: 0;
        padding: 0;
        justify-content:center ;
-       margin-top: 1rem;
+       padding-top: 1rem;
     }
 
     .findus-img img{

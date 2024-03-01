@@ -13,7 +13,7 @@
     flex: 0.9;
     text-align: center;
     padding: 1.5rem 1.5rem;
-    margin : 2rem 2rem; 
+    /* margin : 2rem 2rem;  */
 }
 
 .booktable-input{
@@ -30,7 +30,7 @@
 
 .input{
     flex: 1;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .input select{

@@ -33,8 +33,8 @@ function Navbar() {
                     <img src={logo} alt='logo' />
                 </div>
 
-                <div >
-                    {open ? <HiOutlineX size={30}  /> : <HiMenu size={30} o/>}
+                <div onClick={()=>handleMenu}>
+                    {open ? <HiOutlineX size={20} onClick={()=>handleMenu}  /> : <HiMenu size={30} onClick={()=>handleMenu} />}
                 </div>
 
             </div>

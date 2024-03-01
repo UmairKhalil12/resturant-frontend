@@ -13,7 +13,7 @@
 }
 
 .content-chefword div{
-    margin-left: 5rem;
+    padding-left: 5rem;
 }
 
 .img-chef{
@@ -48,7 +48,7 @@
 
     .img-chef{
         align-items: flex-start;
-        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
     .content-chefword{

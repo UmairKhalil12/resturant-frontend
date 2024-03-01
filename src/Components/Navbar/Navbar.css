@@ -1,11 +1,10 @@
 .navbar-main {
     display: flex;
     justify-content: space-between;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
     background-color: var(--color-bg);
     color: var(--color-text1);
-    
 }
 
 .navbar-main-responsive{
@@ -26,7 +25,7 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
-    margin-right: 2rem;
+    padding-right: 2rem;
 }
 
 .navbar-main img{
@@ -64,11 +63,16 @@
 }
 
 @media screen and (max-width: 850px) {
+
+    .navbar-main{
+        background-color: var(--color-bg);
+    }
+
     .nav-menu-icon-div{
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 2rem;
+        padding: 1.5rem;
     }
 
     .navbar-main{
@@ -93,5 +97,16 @@
         
     }
 
-    
+}
+
+@media screen and (max-width: 550px){
+    .nav-menu-icon-div{
+        padding:0.5rem 0rem
+    }
+
+    .navbar-logo img{
+        width: 80px;
+        height: 30px;
+    }
+
 }
