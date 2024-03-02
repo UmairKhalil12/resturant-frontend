@@ -29,6 +29,7 @@ function Navbar() {
                     <p><Link to='#contact'>Contact</Link></p>
                     <p><Link to='#laurels'>Laurels</Link></p>
                     <p><Link to='#booking'>Book Table</Link></p>
+                    <HiOutlineX size={20} onClick={() => handleMenu} />
                 </div>
             </div>
 
