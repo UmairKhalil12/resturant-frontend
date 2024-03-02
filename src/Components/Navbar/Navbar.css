@@ -80,6 +80,10 @@
     display: none;
 }
 
+.nav-menu-icon{
+    display: none;
+}
+
 @media screen and (max-width: 850px) {
 
     .navbar-main{
@@ -115,6 +119,10 @@
         
     }
 
+    .nav-menu-icon{
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 550px){
@@ -125,6 +133,10 @@
     .navbar-logo img{
         width: 80px;
         height: 30px;
+    }
+
+    .nav-menu-icon{
+        display: block;
     }
 
 }
