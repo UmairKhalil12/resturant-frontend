@@ -7,7 +7,7 @@ import Btn from '../Btn/Btn'
 
 export default function AboutUs() {
     return (
-        <div className='about-main section_padding' style={{ backgroundImage: `url(${bg})` }}>
+        <div className='about-main section_padding' style={{ backgroundImage: `url(${bg})` }} id='about'>
         
             <div className='about'>
                 <div>

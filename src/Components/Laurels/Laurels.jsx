@@ -12,7 +12,7 @@ import laurels from '../../assets/laurels.png'
 
 export default function Laurels() {
     return (
-        <div className='laurels-main' style={{ backgroundImage: `url(${bg})` }}>
+        <div className='laurels-main' style={{ backgroundImage: `url(${bg})` }} id='laurels'>
             <div className='laurels-content'>
                 <div>
                     <p>Our Awards and Recognition</p>

@@ -26,7 +26,7 @@ export default function PhotoGallery() {
 
     const images = [gallery1, gallery2, gallery3, gallery4]
     return (
-        <div className='main-photogallery '>
+        <div className='main-photogallery ' id='gallery'>
             <div className='main-photogallery-content'>
                 <h4>Instagram</h4>
                 <img src={spoon} alt='spoon' />

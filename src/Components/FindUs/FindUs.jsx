@@ -9,7 +9,7 @@ import Btn from '../Btn/Btn'
 
 export default function FindUs() {
     return (
-        <div className='main-findus'  style={{ backgroundImage: `url(${bg})` }}>
+        <div className='main-findus'  style={{ backgroundImage: `url(${bg})` }} id='contact'>
             <div className='findus-content'>
                 <div>
                     <h4>Contact Us</h4>

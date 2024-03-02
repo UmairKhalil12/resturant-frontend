@@ -7,7 +7,7 @@ import welcome from '../../assets/welcome.png'
 
 function Header() {
   return (
-    <div className='header-main' >
+    <div className='header-main' id='home'>
 
       <div className='header-content'>
 

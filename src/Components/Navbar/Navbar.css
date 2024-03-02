@@ -42,6 +42,15 @@
     padding-left: 0.5rem;
 }
 
+.navbar-main-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-main-link a:hover{
+    color:var(--color-subtext);
+}
+
 .navbar-main-link-responsive{
     display: flex;
     flex-direction: column;
@@ -49,6 +58,15 @@
     right: 5px;
     top: 25px;
     padding: 8px 16px;
+}
+
+.navbar-main-link-responsive a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-main-link-responsive a:hover{
+    color: var(--color-subtext);
 }
 
 .navbar-main-link p {

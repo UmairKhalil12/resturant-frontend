@@ -9,7 +9,7 @@ import MenuItem from '../MenuItem/MenuItem'
 
 function Menu() {
     return (
-        <div className='menu-container'>
+        <div className='menu-container' id='menu'>
             <h4>Menu That Fit your Plates</h4>
             <img src={spoon} alt='spoon' />
             <Heading text='Todays Special ' />

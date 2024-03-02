@@ -5,7 +5,7 @@ import "./BookTable.css"
 
 function BookTable() {
     return (
-        <div className="main-booktable" >
+        <div className="main-booktable"  id='booking'>
             <div className="booktable-form">
                 <div className="booktable-form-2">
                     <h4>Reservations</h4>
