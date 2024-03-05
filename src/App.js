@@ -15,7 +15,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <>
-      <div className="App" style={{ backgroundImage: `url(${overlaybg})` }}>
+      <div className="App" >
         <Navbar />
         <Header />
         <AboutUs />
